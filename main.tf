@@ -3,7 +3,7 @@ provider "random" {
 }
 
 resource "random_string" "mystring" {
-  length = 5
+  length = 15
   special = false
   upper = false
 }
