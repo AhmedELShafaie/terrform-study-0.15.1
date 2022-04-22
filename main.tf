@@ -16,7 +16,7 @@ resource "random_password" "rand_password" {
 
 
 resource "random_pet" "mypet" {
-    length = 10
+    length = 20
     prefix = "mypet"
     separator = "-"
   
